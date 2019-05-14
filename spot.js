@@ -16,7 +16,7 @@
         .then(() => engine.shake())
         .then(() => engine.toText('YOU'))
         .then(() => engine.shake())
-        .then(() => engine.toText('CHENJIQIN'))
+        .then(() => engine.toText('陳季芹'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
