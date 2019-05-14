@@ -18,6 +18,12 @@
         .then(() => engine.shake())
         .then(() => engine.toText('陳季芹'))
         .then(() => engine.shake())
+        .then(() => engine.toText('一週年'))
+        .then(() => engine.shake())
+        .then(() => engine.toText('我還會'))
+        .then(() => engine.shake())
+        .then(() => engine.toText('繼續加油的'))
+        .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
     }
